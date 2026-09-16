@@ -24,7 +24,7 @@ import io
 
 # ---------------------------------------------------------------------
 # PREENCHA AQUI quando o app for publicado:
-APPSTORE_URL = None      # ex.: "https://apps.apple.com/br/app/anestudy/id0000000000"
+APPSTORE_URL = "https://apps.apple.com/us/app/anestudy/id6807868152"
 GOOGLE_PLAY_URL = None   # ex.: "https://play.google.com/store/apps/details?id=com.seuapp.anestudy"
 # ---------------------------------------------------------------------
 

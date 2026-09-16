@@ -1,5 +1,28 @@
 # AneStudy — site institucional
 
+## Atualização de 16/09/2026
+
+- App publicado na **App Store** — botão ativado com o link real
+  (`https://apps.apple.com/us/app/anestudy/id6807868152`) nos dois blocos
+  (`ferramentas/publicar-lojas.py` já rodado com esse link).
+- Google Play continua como **"Em breve"** — quando publicar lá, preencha
+  `GOOGLE_PLAY_URL` no mesmo script e rode de novo.
+- Novo recurso **Banco de questões** (2.200+ questões, simulados
+  configuráveis, sessões dirigidas, estilos de banca como TEA/TSA) —
+  ganhou card próprio em "Recursos" e duas capturas novas
+  (`questoes.jpg`, `questao-detalhe.jpg`).
+- Contagem de pontos da SBA atualizada de 42+ para **54+** em todo o site.
+- Capturas de tela trocadas pelas mais recentes (`estudar`, `leitura`,
+  `flashcards`, `marcacoes`, `progresso` — a de `ajustes` continua sendo a
+  antiga, pois não veio uma nova).
+- Imagem de compartilhamento (`social-preview.png`) regerada com os novos
+  números e a screenshot atualizada.
+- `privacy.html` e `terms.html`: adicionada menção às respostas de
+  questões (armazenadas só localmente, como tudo mais) e uma cláusula
+  deixando claro que as questões são autorais, não reprodução de provas
+  oficiais das bancas.
+
+
 Site de divulgação do app **AneStudy**, feito na mesma estrutura do site do
 AnestICU, com paleta própria (sépia/âmbar, igual ao tema de leitura do app).
 
@@ -101,7 +124,7 @@ lógica é a mesma.
      git add .
      git commit -m "Site inicial do AneStudy"
      git branch -M main
-     git remote add origin https://github.com/drluishmg-code/.git
+     git remote add origin https://github.com/drluishmg-code/anestudy.git
      git push -u origin main
      ```
    - Ou, se preferir sem terminal: abra o GitHub Desktop → "Add local

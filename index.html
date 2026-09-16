@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>AneStudy — Resumos e Flashcards de Anestesiologia (SBA)</title>
-<meta name="description" content="AneStudy reúne resumos próprios de Anestesiologia organizados ponto a ponto pelo currículo da SBA, com flashcards de repetição espaçada para revisar de verdade. Em breve para iPhone e Android." />
+<title>AneStudy — Resumos, Flashcards e Questões de Anestesiologia (SBA)</title>
+<meta name="description" content="AneStudy reúne resumos próprios de Anestesiologia organizados ponto a ponto pelo currículo da SBA, com flashcards de repetição espaçada e mais de 2.200 questões no estilo de cada banca. Já disponível para iPhone." />
 <meta name="keywords" content="anestesiologia, residência médica, SBA, flashcards, repetição espaçada, prova de título, TSA, anestesia, estudo médico, resumos" />
 <meta name="author" content="Luís Henrique Martins Gonçalves" />
 <link rel="canonical" href="https://drluishmg-code.github.io/anestudy/index.html" />
@@ -17,8 +17,8 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="AneStudy — Resumos e Flashcards de Anestesiologia (SBA)" />
-<meta property="og:description" content="Resumos próprios organizados ponto a ponto pela SBA, com flashcards de repetição espaçada. Em breve para iPhone e Android." />
+<meta property="og:title" content="AneStudy — Resumos, Flashcards e Questões de Anestesiologia (SBA)" />
+<meta property="og:description" content="Resumos próprios organizados ponto a ponto pela SBA, com flashcards de repetição espaçada e banco de questões. Já disponível para iPhone." />
 <meta property="og:image" content="https://drluishmg-code.github.io/anestudy/assets/social-preview.png" />
 <meta property="og:url" content="https://drluishmg-code.github.io/anestudy/index.html" />
 <meta property="og:locale" content="pt_BR" />
@@ -26,7 +26,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="AneStudy — Resumos e Flashcards de Anestesiologia (SBA)" />
+<meta name="twitter:title" content="AneStudy — Resumos, Flashcards e Questões de Anestesiologia (SBA)" />
 <meta name="twitter:description" content="Resumos próprios organizados ponto a ponto pela SBA, com flashcards de repetição espaçada." />
 <meta name="twitter:image" content="https://drluishmg-code.github.io/anestudy/assets/social-preview.png" />
 
@@ -39,19 +39,21 @@
 
 <!--
   ======================================================================
-  COMO ATIVAR OS LINKS DAS LOJAS QUANDO O APP FOR PUBLICADO
+  COMO ATIVAR O LINK DO GOOGLE PLAY QUANDO O APP FOR PUBLICADO LÁ
   ======================================================================
-  Este site tem DOIS blocos de botões "Em breve" (procure por
-  <!-- BOTOES-LOJA --> abaixo, um no herói e outro no CTA final).
+  O botão da App Store já está ativo (App Store: id6807868152).
+  Falta só o Google Play — hoje ele aparece como "Em breve" nos DOIS
+  blocos <!-- BOTOES-LOJA --> abaixo (um no herói, outro no CTA final).
 
-  Para cada botão, quando o app estiver publicado:
+  Para cada botão do Google Play, quando o app for publicado lá:
     1. Troque href="#" pelo link real da loja.
     2. Apague o atributo aria-disabled="true".
     3. Remova a classe "is-soon" do <a class="store-btn ...">.
     4. Apague a linha <span class="store-btn-soon-tag">Em breve</span>.
 
-  Ou rode o script ferramentas/publicar-lojas.py incluído no repositório,
-  que faz essas 4 trocas nos dois blocos de uma vez (veja o README).
+  Ou preencha GOOGLE_PLAY_URL em ferramentas/publicar-lojas.py e rode o
+  script — ele faz essas 4 trocas nos dois blocos de uma vez (veja o
+  README).
   ======================================================================
 -->
 
@@ -63,7 +65,7 @@
   "name": "AneStudy",
   "applicationCategory": "EducationalApplication",
   "operatingSystem": "iOS, Android",
-  "description": "Aplicativo de resumos e flashcards de Anestesiologia organizados ponto a ponto pelo currículo da SBA, com repetição espaçada.",
+  "description": "Aplicativo de resumos, flashcards de repetição espaçada e banco de questões de Anestesiologia, organizados ponto a ponto pelo currículo da SBA.",
   "author": {
     "@type": "Person",
     "name": "Luís Henrique Martins Gonçalves"
@@ -96,7 +98,7 @@
     </div>
 
     <div class="nav-cta">
-      <a href="#download" class="btn btn-primary" style="padding:0.6rem 1.2rem; font-size:0.88rem;">Em breve</a>
+      <a href="https://apps.apple.com/us/app/anestudy/id6807868152" class="btn btn-primary" style="padding:0.6rem 1.2rem; font-size:0.88rem;">Baixar</a>
       <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navDrawer">
         <span></span><span></span><span></span>
       </button>
@@ -125,17 +127,16 @@
       <div class="hero-copy reveal">
         <span class="eyebrow">Feito por um anestesiologista · para quem estuda para a residência e a prova da SBA</span>
         <h1>AneStudy</h1>
-        <p class="lede-title">Resumos e flashcards de Anestesiologia, ponto a ponto pela SBA.</p>
-        <p class="lede">Resumos de autoria própria, revisados com apoio de inteligência artificial e organizados pelo currículo da Sociedade Brasileira de Anestesiologia — com cartões de repetição espaçada para fixar o conteúdo de verdade, não só ler uma vez.</p>
+        <p class="lede-title">Resumos, flashcards e questões de Anestesiologia, ponto a ponto pela SBA.</p>
+        <p class="lede">Resumos de autoria própria, revisados com apoio de inteligência artificial e organizados pelo currículo da Sociedade Brasileira de Anestesiologia — com cartões de repetição espaçada e um banco de questões no estilo de cada banca para você treinar de verdade.</p>
 
         <div class="hero-actions">
           <!-- BOTOES-LOJA -->
           <div class="store-actions">
-            <a href="#" class="store-btn is-soon" aria-disabled="true" onclick="return false;" aria-label="Em breve na App Store">
-              <span class="store-btn-soon-tag">Em breve</span>
+            <a href="https://apps.apple.com/us/app/anestudy/id6807868152" class="store-btn" aria-label="Baixar na App Store">
               <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141 4 184.8 4 273.7q0 39.4 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.1zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
               <span class="store-btn-copy">
-                <small>Baixe em breve na</small>
+                <small>Baixe na</small>
                 <strong>App Store</strong>
               </span>
             </a>
@@ -153,16 +154,16 @@
 
         <div class="hero-meta">
           <div>
-            <strong>42+</strong>
+            <strong>54+</strong>
             <span>pontos da SBA já publicados</span>
           </div>
           <div>
-            <strong>100%</strong>
-            <span>local — sem conta, sem nuvem</span>
+            <strong>2.200+</strong>
+            <span>questões no estilo de cada banca</span>
           </div>
           <div>
-            <strong>Beta</strong>
-            <span>conteúdo publicado ponto a ponto</span>
+            <strong>16.800+</strong>
+            <span>flashcards de repetição espaçada</span>
           </div>
         </div>
       </div>
@@ -206,7 +207,7 @@
       <div class="section-head center reveal">
         <span class="eyebrow">Recursos</span>
         <h2>Tudo que você precisa pra revisar de verdade, em um só lugar</h2>
-        <p class="lede">Do resumo ao cartão de revisão — organizado ponto a ponto para caber entre um plantão e outro.</p>
+        <p class="lede">Do resumo ao cartão de revisão, e do cartão à questão de prova — organizado ponto a ponto para caber entre um plantão e outro.</p>
       </div>
 
       <div class="features-grid">
@@ -214,7 +215,7 @@
         <div class="feature-card reveal">
           <div class="feature-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1"/><path d="M9 11h6M9 15h6M9 19h3"/></svg></div>
           <h3>Resumos ponto a ponto</h3>
-          <p>Organizados por ano de residência (ME1, ME2, ME3) e por ponto da SBA — do 1 ao 42 e crescendo.</p>
+          <p>Organizados por ano de residência (ME1, ME2, ME3) e por ponto da SBA — do 1 ao 54 e crescendo.</p>
         </div>
 
         <div class="feature-card reveal">
@@ -224,9 +225,15 @@
         </div>
 
         <div class="feature-card reveal">
+          <div class="feature-icon red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Banco de questões</h3>
+          <p>Mais de 2.200 questões autorais, no estilo de cada banca (TEA, TSA e outras), com simulados configuráveis, explicação detalhada e link direto pro resumo de cada tema.</p>
+        </div>
+
+        <div class="feature-card reveal">
           <div class="feature-icon blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.2 6 10.5A6 6 0 0 1 6 13.5C6 9.2 12 3 12 3z"/></svg></div>
           <h3>Sessões dirigidas</h3>
-          <p>Revise só o que você errou ou marcou como difícil — sem se perder no meio do que já domina.</p>
+          <p>Refaça só o que você errou, nunca viu ou marcou como difícil — em flashcards e em questões.</p>
         </div>
 
         <div class="feature-card reveal">
@@ -244,7 +251,7 @@
         <div class="feature-card reveal">
           <div class="feature-icon green"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 4 3 5-7"/></svg></div>
           <h3>Progresso detalhado</h3>
-          <p>Sequência de dias, acerto do dia, maturidade do baralho e desempenho por ponto da SBA.</p>
+          <p>Sequência de dias, maturidade do baralho, acerto nas questões por ano de residência e desempenho por ponto da SBA.</p>
         </div>
 
         <div class="feature-card reveal">
@@ -272,7 +279,7 @@
         <span class="eyebrow">Capturas</span>
         <h2>O aplicativo em ação</h2>
         <p class="lede">
-          Resumos, flashcards e progresso — desenvolvido para quem estuda Anestesiologia todo dia.
+          Resumos, flashcards, questões e progresso — desenvolvido para quem estuda Anestesiologia todo dia.
         </p>
       </div>
 
@@ -289,6 +296,16 @@
         </figure>
 
         <figure class="screen-card reveal">
+          <img src="assets/screenshots/questoes.jpg" alt="Tela de banco de questões do AneStudy">
+          <figcaption>Banco de questões e simulados configuráveis</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
+          <img src="assets/screenshots/questao-detalhe.jpg" alt="Questão respondida com explicação no AneStudy">
+          <figcaption>Explicação detalhada, com link direto pro resumo</figcaption>
+        </figure>
+
+        <figure class="screen-card reveal">
           <img src="assets/screenshots/leitura.jpg" alt="Resumo de Ética Médica e Bioética no AneStudy">
           <figcaption>Resumo completo, ponto a ponto</figcaption>
         </figure>
@@ -300,7 +317,7 @@
 
         <figure class="screen-card reveal">
           <img src="assets/screenshots/progresso.jpg" alt="Tela de progresso do AneStudy">
-          <figcaption>Progresso detalhado, dia a dia</figcaption>
+          <figcaption>Progresso detalhado, com acerto por ano e por ponto</figcaption>
         </figure>
 
         <figure class="screen-card reveal">
@@ -318,9 +335,9 @@
   <section class="section" id="sobre">
     <div class="container about-grid">
       <div class="about-visual reveal">
-        <div class="stat-row"><strong>42+</strong><span>pontos da SBA organizados, ponto a ponto</span></div>
+        <div class="stat-row"><strong>54+</strong><span>pontos da SBA organizados, ponto a ponto</span></div>
+        <div class="stat-row"><strong>2.200+</strong><span>questões autorais, no estilo de cada banca</span></div>
         <div class="stat-row"><strong>ME1–ME3</strong><span>os três anos de residência cobertos</span></div>
-        <div class="stat-row"><strong>1</strong><span>anestesiologista brasileiro por trás de todo o conteúdo</span></div>
       </div>
 
       <div class="about-copy reveal">
@@ -328,7 +345,7 @@
         <h2>Escrito por quem também estuda para a prova.</h2>
         <p>O AneStudy nasceu da rotina de residência: resumir cada ponto da SBA de um jeito que desse pra revisar de verdade, não só ler uma vez e esquecer.</p>
         <p>Os resumos são de autoria própria e passam por revisão contínua, com apoio de inteligência artificial para organizar e atualizar o conteúdo — mas a fonte primária continua sendo a literatura e as diretrizes oficiais.</p>
-        <p>Feito para caber entre um plantão e outro: leia o resumo, deixe o app gerar os cartões, e revise um pouco todo dia.</p>
+        <p>Feito para caber entre um plantão e outro: leia o resumo, deixe o app gerar os cartões, revise um pouco todo dia e treine com questões no estilo da sua banca.</p>
       </div>
     </div>
   </section>
@@ -342,7 +359,7 @@
         </div>
         <div>
           <h3>Aviso importante</h3>
-          <p>O AneStudy está em construção: o conteúdo é publicado ponto a ponto e passa por revisão contínua.</p>
+          <p>O conteúdo do AneStudy é publicado ponto a ponto e passa por revisão contínua — novos pontos e questões são adicionados com frequência.</p>
           <p>Os resumos são material de estudo, de autoria própria e com apoio de inteligência artificial — confira sempre a fonte primária antes de aplicar qualquer conduta a um paciente.</p>
         </div>
       </div>
@@ -353,17 +370,16 @@
   <section class="section" id="download">
     <div class="container">
       <div class="final-cta reveal">
-        <span class="eyebrow">Em breve para iPhone e Android</span>
+        <span class="eyebrow">Já disponível para iPhone · Android em breve</span>
         <h2>Leve o AneStudy para a sua reta final de estudo</h2>
-        <p class="lede">O app ainda está em desenvolvimento. Assim que for publicado, os links abaixo levam direto para a loja.</p>
+        <p class="lede">Baixe agora na App Store. A versão para Android está em desenvolvimento — o link abaixo é ativado assim que sair.</p>
         <div class="hero-actions">
           <!-- BOTOES-LOJA -->
           <div class="store-actions" style="justify-content:center;">
-            <a href="#" class="store-btn is-soon" aria-disabled="true" onclick="return false;" aria-label="Em breve na App Store">
-              <span class="store-btn-soon-tag">Em breve</span>
+            <a href="https://apps.apple.com/us/app/anestudy/id6807868152" class="store-btn" aria-label="Baixar na App Store">
               <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141 4 184.8 4 273.7q0 39.4 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.1zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
               <span class="store-btn-copy">
-                <small>Baixe em breve na</small>
+                <small>Baixe na</small>
                 <strong>App Store</strong>
               </span>
             </a>
