@@ -1,5 +1,14 @@
 # AneStudy — site institucional
 
+## Atualização de 05/11/2026
+
+- App publicado na **Google Play** — botão ativado nos dois blocos
+  (`https://play.google.com/store/apps/details?id=br.com.anestudy.app`).
+- Botão "Baixar" do topo agora leva à seção `#download` (com as duas lojas)
+  em vez de ir direto à App Store.
+- Descrição geral atualizada: 54 pontos completos + extras, 3.700+ questões
+  (TEA/TSA/EDAIC), 17.000+ flashcards, iPhone, iPad e Android.
+
 ## Atualização de 16/09/2026
 
 - App publicado na **App Store** — botão ativado com o link real
